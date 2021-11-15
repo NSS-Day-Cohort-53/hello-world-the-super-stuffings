@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Shippori+Antique&display=swap');
+
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(83, 80, 81);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(43, 32, 32);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(136, 40, 53);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .body {
     background-color:#c8d8e4;
     
@@ -6,19 +33,29 @@
 .logo {
 display: flex;
 justify-content: center;
-}
 
+
+}
+.logo__image{
+    width: 30em;
+    height: auto;
+    margin: -10em;
+    
+}
 .header { 
         display: flex;
         justify-content: space-evenly;
-        border: 2px solid #2b6777;
+        border: 5px solid #2b6777;
         background-color: #f2f2f2; 
 }
 
 .header__1 {
         padding: 10px; 
         border: 2px solid #52ab98;
+        background-color: #c8d8e4;
         margin: 1em;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: italic;
 }
 
 .country_image {
@@ -28,6 +65,7 @@ justify-content: center;
 
 .country_title {
     text-align: center;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .content {
@@ -40,18 +78,21 @@ justify-content: center;
     border: 5px solid rgb(71, 71, 71);
     padding: 1em;
     background-color: #f2f2f2;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .content__citizens{
     border: 5px solid rgb(71, 71, 71);
     padding: 1em;
     background-color: #f2f2f2;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .content__cities{
     border: 5px solid rgb(71, 71, 71);
     padding: 1em;
     background-color: #f2f2f2;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .content__homePage{
