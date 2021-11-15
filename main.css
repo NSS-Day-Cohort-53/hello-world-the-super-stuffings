@@ -22,13 +22,11 @@ justify-content: center;
         border: 2px solid #52ab98;
         margin: 1em;
 }
-.map { 
 
-
-}
 .country_image {
     display: flex;
     justify-content: center;
+    
    
 
 }
@@ -65,10 +63,16 @@ justify-content: center;
     background-color: #f2f2f2;
 }
 
-
+.content_homePage{
+    border: 5px solid #2b6777;
+    padding: 1em;
+    flex-basis: 90%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
 .foot {
     display: flex;
-    border: 2px solid black;
+    border: 2px solid #2b6777;
     padding: 1em;
     background-color: #f2f2f2;
 }
@@ -78,7 +82,7 @@ justify-content: center;
 }
 
 .map {
-    border: 3px solid;
+    border: 5px solid #2b6777;
     padding: 10px;
     width: 200px;
 }
